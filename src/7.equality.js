@@ -25,3 +25,8 @@ module.exports = {
     return false
   }
 };
+
+module.exports = {
+  strictEquality,
+  equality
+};
