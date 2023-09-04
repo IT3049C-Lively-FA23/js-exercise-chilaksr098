@@ -23,7 +23,7 @@ function fizzBuzz(num) {
   else{
     return num
   }
-
+  
 }
   
 module.exports = {
