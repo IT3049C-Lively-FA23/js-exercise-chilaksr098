@@ -7,18 +7,25 @@
  *    if no number was provided or if the value provided wasn't a number (hint: typeof), return false
  */
 function fizzBuzz(num) {
-  if (parselnt(num) % 3 == 0 && parselnt(num)
-  % 5 == 0) //check to number is divisible by and 5
-  console.log("hello");
-  //return "fizzbuzz";
-  else if (parselnt(num) % 3 === 0)
-  return "fizz";
-  else if (parselnt(num) % 5 === 0)
-  return "buzz";
-  else if (Number.isInteger(num))
-  console.log("not number");
-  // return false;
-  else 
-  return num;
+  
+  if(num % 3 === 0 && num % 5 !== 0){
+    return "fizz"
   }
+  else if(num % 5 === 0 && num % 3 !== 0){
+    return "buzz"
+  }
+  else if((num % 3 === 0) && (num % 5 === 0)){
+    return "fizzbuzz"
+  }
+  else if( isNaN(num)){
+    return false
+  }
+  else{
+    return num
+  }
+}
+  
+module.exports = {
+  fizzBuzz
+};
   
