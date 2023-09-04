@@ -13,7 +13,17 @@ const personObject = {
   last_name: " ",
   class_of: 0,
 
+  full_name: function(){
+
+    strFullName = this.first_name.concat( " ", this.last_name)
+    
+    return strFullName;
 };
+
+introduction: function(){
+  var strWelcome = "Hello and welcome " + this.full_name() + "to the class of" + this.class_of;
+
+ return strWelcome;
 
 module.exports = {
   personObject
