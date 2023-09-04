@@ -9,6 +9,9 @@
  *      * must use the `class_of` property in the introduction
  */
 const personObject = {
+  first_name: " ",
+  last_name: " ",
+  class_of: 0,
 
 };
 
