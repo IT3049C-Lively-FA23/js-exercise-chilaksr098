@@ -11,7 +11,7 @@ Instructions to this assignment can be found [here](https://reedws.github.io/IT3
 ```md
 - [x] This task is complete.
 ```
-- [x ] All Unit tests passed.
+- [x] All Unit tests passed.
 - [x] filled out the self-evaluation.
 - [x] filled out the self-reflection.
 
