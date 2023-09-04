@@ -18,6 +18,10 @@ function equality(val1, val2) {
 }
 
 module.exports = {
-  strictEquality,
-  equality
+  if(val1 == val2){
+    return true
+  }
+  else{
+    return false
+  }
 };
